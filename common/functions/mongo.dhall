@@ -1,6 +1,8 @@
 let MongoConfig = ../types/mongo.dhall
 
-let Optional/fold = https://prelude.dhall-lang.org/Optional/fold
+let Optional/fold =
+      https://prelude.dhall-lang.org/Optional/fold
+        sha256:c5b9d72f6f62bdaa0e196ac1c742cc175cd67a717b880fb8aec1333a5a4132cf
 
 let generateMongoURI
     : MongoConfig → Text
