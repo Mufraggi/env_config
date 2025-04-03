@@ -1,10 +1,11 @@
 let MongoConfig =
-    { host : Text
-    , port : Natural
-    , user : Text
-    , password : Text
-    , database : Text
-    , replicaSet : Optional Text
-    }: Type
+        { host : Text
+        , port : Natural
+        , user : Text
+        , password : Text
+        , database : Text
+        , replicaSet : Optional Text
+        }
+      : Type
 
-in MongoConfig
+in  MongoConfig
